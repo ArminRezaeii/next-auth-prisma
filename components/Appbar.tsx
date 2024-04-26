@@ -19,7 +19,7 @@ function Appbar() {
             <NavbarContent justify="end">
                 <NavbarItem>
                     <Button as={Link} color="primary" href="/auth/signup" variant="flat">
-                    Sign up test  Sign up test  Sign up test  Sign up test
+                    Sign up
                     </Button>
                 </NavbarItem>
             </NavbarContent>
