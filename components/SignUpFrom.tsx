@@ -47,7 +47,7 @@ function SignUpFrom() {
             } type={isVisiblePass ? "text" : "password"} startContent={<KeyIcon className='w-4' />} />
             <Input {...register("confrimPassword")} className='col-span-2' label="Confrim Password" type={isVisiblePass ? "text" : "password "} startContent={<KeyIcon className='w-4' />} />
             
-            <Checkbox {...register("accepted")}>Assccpet the<Link href="/terms">Terms</Link></Checkbox>
+            <Checkbox {...register("accepted")}>Accpet the<Link href="/terms">Terms</Link></Checkbox>
             <Button color='primary' type='submit'>Submit</Button>
         </form>
     )
